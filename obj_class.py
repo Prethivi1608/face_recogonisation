@@ -18,13 +18,6 @@ def captureImage():
     vedioCapture.release()
 
 cv2.destroyAllWindows()
-        
-    # for i in range(num_images):
-    #     file_name = f'{file_path}images_[{i}]'
-    #     cv2.imwrite(file_name,frame)
-    #     cv2.waitKey(0)
-    #     print(f"Saving images {i}")
-    
 
 
 def main():
